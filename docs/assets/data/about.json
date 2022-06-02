@@ -17,7 +17,7 @@
             "http": "https://github.com/akhilrajmailbox/"
         },
         {
-            "icon": "dockerhub",
+            "icon": "docker",
             "title": "DockerHub",
             "http": "https://hub.docker.com/u/akhilrajmailbox/"
         }

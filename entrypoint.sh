@@ -36,6 +36,32 @@ function createArt() {
     fi
 }
 
+function mvArt() {
+    if [[ -d ${SRC_PATH}/docs ]] ; then
+        cd ${SRC_PATH}
+        echo "Moving UI Artefact to docs folder"
+        rm -rf docs ; mkdir docs
+        cp -r dist/liveResume/en/* docs/
+        echo "Removing junk folders"
+        rm -rf dist node_modules .angular
+        cd -
+    else
+        echo "${SRC_PATH}/docs not found..!"
+    fi
+}
 
 
-createArt
+if [[ ${1} == build ]] ; then
+    createArt
+elif [[ ${1} == publish ]] ; then
+    createArt
+    mvArt
+else
+cat << EOF
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+    options :
+        build
+        publish
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+EOF
+fi

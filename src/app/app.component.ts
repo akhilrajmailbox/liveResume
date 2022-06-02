@@ -8,7 +8,7 @@ import { Meta, Title } from "@angular/platform-browser";
 })
 export class AppComponent implements OnInit {
 
-  title: string = "Live Resume - Guilherme Borges Bastos";
+  title: string = "Live Resume - Akhil Raj";
 
   constructor(
     private titleService: Title,
@@ -20,16 +20,16 @@ export class AppComponent implements OnInit {
     this.titleService.setTitle(this.title);
 
     this.metaTagService.addTags([
-      { name: "keywords", content: "Web Developer, Java Developer, Full-stack Java Developer, DevOps Engineer, Android Developer, Guilherme Borges Bastos Live Resume, Guilherme Borges Bastos Resume, Guilherme Borges Bastos CV, Curriculum Guilherme Borges Bastos, GBASTOS Resumo, gbastos live resume" },
+      { name: "keywords", content: "DevOps Engineer, Cloud Engineer, DevOps Architect, Cloud Architect, Akhil Raj Live Resume, Akhil Raj Resume, Akhil Raj CV, Curriculum Akhil Raj, Akhil Raj Niravathinal, akhil live resume" },
       { name: "robots", content: "index, follow" },
-      { name: "author", content: "Guilherme Borges Bastos" },
+      { name: "author", content: "Akhil Raj" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { name: "date", content: "2020-05-12", scheme: "YYYY-MM-DD" },
+      { name: "date", content: "2022-06-03", scheme: "YYYY-MM-DD" },
       { charset: "UTF-8" }
     ]);
 
     this.metaTagService.updateTag(
-      { name: "description", content: "Hello, I'm a Full-stack Web Developer with 10+ years of experience designing web and mobile projects. Find out more in my live-resume!" }
+      { name: "description", content: "Hello, I'm a DevOps Architect with 6+ years of experience DevOps and Cloud projects. Find out more in my live-resume!" }
     );
   }
 }

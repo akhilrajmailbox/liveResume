@@ -4,4 +4,5 @@ FROM node:12.20.0
 COPY node_modules /opt/node_modules
 COPY entrypoint.sh /usr/local/bin/
 RUN chmod a+x /usr/local/bin/entrypoint.sh
+CMD ["publish"]
 ENTRYPOINT [ "entrypoint.sh" ]

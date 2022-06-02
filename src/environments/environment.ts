@@ -6,10 +6,10 @@ export const environment = {
     production: false,
     // replace the data below with your personal data
     personal: {
-      caricature: "contact-akhil-cartoon.png",
+      caricature: "welcome-akhil-cartoon.png",
       name: "Akhil Raj",
       birth: "1993-10-31",
-      email: "",
+      email: "akhilrajmailbox@gmail.com",
       phone: "",
       location: "Muvattupuzha, Ernakulam, India"
     },

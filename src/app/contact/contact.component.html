@@ -28,7 +28,7 @@
                     <div class="form-group">
                         <label for="name" i18n="contact@@name">Your name:</label>
                         <input [class.is-invalid]="senderName.invalid && senderName.touched"
-                            type="text" name="name" i18n-placeholder="contact@@namePlaceholder" placeholder="Mark" formControlName="name" >
+                            type="text" name="name" i18n-placeholder="contact@@namePlaceholder" placeholder="Your Name" formControlName="name" >
                         <div class="warnings" *ngIf="(senderName.invalid && senderName.touched) || senderName.dirty">
                             <!--question mark(?) is a safe navigation operator-->
                             <small *ngIf="senderName.errors?.required" class="text-danger" i18n="contact@@requiredNameError">The name is required.</small>
@@ -38,7 +38,7 @@
                     <div class="form-group">
                         <label for="email" i18n="contact@@email">Email:</label>
                         <input [class.is-invalid]="senderEmail.invalid && senderEmail.touched"
-                            type="email" name="email" i18n-placeholder="contact@@emailPlaceholder" placeholder="mark@gmail.com" formControlName="email" required>
+                            type="email" name="email" i18n-placeholder="contact@@emailPlaceholder" placeholder="Your Email ID" formControlName="email" required>
                         <div class="warnings" *ngIf="(senderEmail.invalid && senderEmail.touched) || senderEmail.dirty">
                             <!--question mark(?) is a safe navigation operator-->
                             <small *ngIf="senderEmail.errors?.required" class="text-danger" i18n="contact@@requiredEmailError">The email is required.</small>
@@ -48,7 +48,7 @@
                     <div class="form-group">
                         <label for="message" i18n="contact@@message">Your message:</label>
                         <textarea [class.is-invalid]="senderMessage.invalid && senderMessage.touched"
-                            name="message" i18n-placeholder="contact@@messagePlaceholder" placeholder="Write here your message... I will reply to you soon." formControlName="message" required></textarea>
+                            name="message" i18n-placeholder="contact@@messagePlaceholder" placeholder="This feature is currently disabled. Please use my email ID to contact me" formControlName="message" required></textarea>
                         <div class="warnings" *ngIf="(senderMessage.invalid && senderMessage.touched) || senderMessage.dirty">
                             <!--question mark(?) is a safe navigation operator-->
                             <small *ngIf="senderMessage.errors?.required" class="text-danger" i18n="contact@@requiredMessageError">The message is required.</small>
@@ -60,6 +60,6 @@
         </div>
         <div class="right-side"></div>
     </div>
-    <img loading="lazy" height="705" src="./assets/template/contact/gbastos-Illustration.png" class="illustration" alt="illustration" itemprop="avatar">
+    <img loading="lazy" height="705" src="./assets/template/contact/contact-akhil-cartoon.png" class="illustration" alt="illustration" itemprop="avatar">
     <div class="half-circle"></div>
 </section>

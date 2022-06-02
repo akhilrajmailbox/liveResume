@@ -2,9 +2,9 @@
     {
         "id": 1,
         "position": 1,
-        "startAt": "2015",
-        "endAt": "2016",
-        "companyName": "XALTED INFORMATION SYSTEM",
+        "startAt": "12-04-2015",
+        "endAt": "06-30-2016",
+        "companyName": "Xalted Information System",
         "website": "http://www.xaltedcorp.com/",
         "logo": "assets/template/experience/logo/xaltedcorp.png",
         "internationalizations": [
@@ -13,13 +13,18 @@
                 "city": "Cochin",
                 "country": "India",
                 "role": "Implementation Engineer",
-                "description": "<b>Xalted</b> is a leading global provider of end-to-end Proactive Intelligence and Analytics solutions that empower Government Agencies and Business Units to make smarter and informed decisions – thereby enabling them to solve complex problems by providing valuable insights<br><b>Responsibility</b><br>* Installation and configuration of Linux for new build environment<br>* Configuring and monitoring LVM<br>* User Management & Administration<br>* Configuring and managing network interfaces<br>* File system management<br>"
+                "description": "<b>Xalted</b> is a leading global provider of end-to-end Proactive Intelligence and Analytics solutions that empower Government Agencies and Business Units to make smarter and informed decisions – thereby enabling them to solve complex problems by providing valuable insights<br><b>Responsibility</b><br><br>* Installation and configuration of Linux for new build environment<br>* Configuring and monitoring LVM<br>* User Management & Administration<br>* Configuring and managing network interfaces<br>* File system management<br>"
             }
         ],
         "technologies": [
             "Linux", "Github", "MsSQL", "MySQL", "Windows", "Networking"
         ],
         "medias": [
+            {
+                "icon": "youtube",
+                "title": "YouTube Xalted",
+                "http": "https://www.youtube.com/channel/UCPK8vwkawzVwG8gjWJiw5dA"
+            },
             {
                 "icon": "linkedin",
                 "title": "LinkedIn Xalted",
@@ -31,38 +36,33 @@
     {
         "id": 2,
         "position": 2,
-        "startAt": "01-03-2011",
-        "endAt": "06-16-2014",
-        "companyName": "E-tática",
-        "website": "https://www.e-tatica.com/",
-        "logo": "assets/template/experience/logo/etatica-logo.png",
+        "startAt": "07-01-2016",
+        "endAt": "08-28-2018",
+        "companyName": "Vivasa Information System",
+        "website": "https://vivasa.in/",
+        "logo": "assets/template/experience/logo/vivasa.png",
         "internationalizations": [
             {
                 "language": "en",
-                "city": "Rio de Janeiro",
-                "country": "Brazil",
-                "role": "Full-stack Developer",
-                "description": "<b>E-tática</b> is an agency specialized in solutions for <i>e-commerce</i>, digital marketing, and visual identity since 2008, working with large, small, and medium-sized businesses, offering to their clients the know-how in the integration of <i>enterprise resource planning (ERP)</i> and <i>third-party APIs</i>, such as custom <i>payment providers</i>. It does the integration of the internal management of the online platform and physical store, being certified by the main platforms in the market.<br><br>At <i>E-tática</i> I have worked to develop custom solutions for clients wholesale and retail, valuing the quality and continuity of projects in the medium and long term."
+                "city": "Bangalore",
+                "country": "India",
+                "role": "DevOps Engineer",
+                "description": "<b>Vivasa</b> provide software development services for small and medium clients in the CRM, GRC and EV domains.<br><b>Vivasa</b> help IT professionals acquire hands-on programming skills through a personalized, mentor-driven, and project-based curriculum.<br><b>Responsibility</b><br><br>* container orchestration with docker<br>* Jenkins for Continuous Integration<br>* Kubernetes Deployment<br>* Scaleway, Hetzner and GCP Infrastructure<br>* ElasticSearch and Kibana for Logging<br>* Nagios Server Configuration and Monitoring the services<br>* Shell script / Python Script for automation tasks<br>* NoSQL Database (Cassandra) Cluster deployment and Management<br>* GitLab and Eclipse Che Server Management<br>* Windows Server Administration<br>"
             }
         ],
         "technologies": [
-            "Magento 1.X", "PHP", "Zend Framework", "HTML", "CSS", "CSS3", "Javascript", "jQuery", "SOAP", "Wordpress", "SVN", "Payment Services", "SSH", "SSL", "Linux"
+            "Linux", "BitBucket", "GitLab", "Node Package Manager", "Docker", "JavaScript", "Jenkins", "Kubernetes", "Networking", "MySQL", "Cassandra", "Linux", "Windows", "Elastic Search", "EFK", "Prometheus", "Grafana"
         ],
         "medias": [
             {
                 "icon": "linkedin",
-                "title": "LinkedIn E-tática",
-                "http": "https://www.linkedin.com/company/etatica/"
+                "title": "LinkedIn Vivasa",
+                "http": "https://in.linkedin.com/company/invivasa/"
             },
             {
-                "icon": "facebook",
-                "title": "Facebook E-tática",
-                "http": "https://www.facebook.com/etatica/"
-            },
-            {
-                "icon": "instagram",
-                "title": "Instagram E-tática",
-                "http": "https://www.instagram.com/somos_etatica/"
+                "icon": "github",
+                "title": "GitHub Vivasa",
+                "http": "https://github.com/vivasa/"
             }
         ],
         "backgroundUrl": "assets/template/experience/rio.jpg"
@@ -70,28 +70,38 @@
     {
         "id": 3,
         "position": 3,
-        "startAt": "07-01-2014",
-        "endAt": "12-23-2016",
-        "companyName": "Deevo Studio",
-        "website": "http://deevo.com.br/",
-        "logo": "assets/template/experience/logo/deevo-logo.png",
+        "startAt": "09-02-2018",
+        "endAt": "10-25-2020",
+        "companyName": "Kognitiv",
+        "website": "https://kognitiv.com/",
+        "logo": "assets/template/experience/logo/kognitiv.png",
         "internationalizations": [
             {
                 "language": "en",
-                "city": "São Paulo",
-                "country": "Brazil",
-                "role": "Mobile Developer",
-                "description": "At <b>Deevo Studio</b> is a company specializing in <i>web design</i> and <i>development</i> with an extensive portfolio of cases, the result of <i>20 years</i> of experience with other agencies and the corporate market. Their creations involve everything from brand development and visual identity to the creation of applications and websites, with a wide knowledge of Wordpress and Web Technologies.<br><br>At <i>Deevo Studio</i>, I had the chance to use the previously back-end knowledge combined with practical experience in JAVA development to accept the challenge to start an <i>Android Development Department</i> in the company, delivering complex <i>Android Applications</i> to companies in Brazil."
+                "city": "Bangalore",
+                "country": "India",
+                "role": "DevOps Engineer",
+                "description": "At <b>Kognitiv</b> enables leading organizations to form collaborative commerce networks, unearth value for their consumers, and markedly improve returns.<br><b>Responsibility</b><br><br>* Blockchain and Hyperledger Fabric<br>* Jenkins and Docker<br>* GCP, AWS and Azure for infrastructure<br>* Kubernetes Cluster Management and Deployment<br>* Versioning and Rollback strategy in k8s deployment<br>* ElasticSearch and Kibana for logging<br>* Prometheus and Grafana for whitebox monitoring<br>* Nagios for blackbox monitoring<br>* Managing Databases such as MySQL, PostgreSQL and MongoDB<br>* Shell script / Python Script for automation tasks<br>"
             }
         ],
         "technologies": [
-            "Java (Android)", "Wordpress", "HTML", "HTML5", "CSS", "CSS3", "Javascript", "jQuery", "Google APIs", "SQL", "MySQL", "PHP", "Slim Framework", "Laravel", "SMTP", "Versioning Control", "BitBucket", "Jira", "Git", "Kanban framework"
+            "Ansible", "Linux", "AWS", "GCP", "Azure", "Jenkins", "CICD", "Docker", "Kubernetes", "BitBucket", "Github", "Jenkinsfile", "Elastic Search", "EFK", "Prometheus", "Grafana"
         ],
         "medias": [
             {
+                "icon": "youtube",
+                "title": "YouTube Kognitiv",
+                "http": "https://www.youtube.com/channel/UCdA9ilA2zNZRNL-oWWJi5lQ"
+            },
+            {
                 "icon": "linkedin",
-                "title": "LinkedIn Deevo Studio",
-                "http": "https://www.linkedin.com/company/deevo/about/"
+                "title": "LinkedIn Kognitiv",
+                "http": "https://in.linkedin.com/company/kognitiv-corporation"
+            },
+            {
+                "icon": "github",
+                "title": "GitHub Kognitiv",
+                "http": "https://github.com/Demeure/"
             }
         ],
         "backgroundUrl": "assets/template/experience/sao-paulo.jpg"
@@ -99,32 +109,38 @@
     {
         "id": 4,
         "position": 4,
-        "startAt": "01-02-2017",
-        "endAt": "11-30-2017",
-        "companyName": "Skydreamer",
-        "logo": "assets/template/experience/logo/skydreamer-logo.png",
+        "startAt": "02-23-2021",
+        "endAt": "2022",
+        "companyName": "Concentrix",
+        "website": "https://www.concentrix.com/",
+        "logo": "assets/template/experience/logo/concentrix.png",
         "internationalizations": [
             {
                 "language": "en",
-                "city": "Utrecht",
-                "country": "Netherlands",
-                "role": "Full-stack Developer",
-                "description": "At <b>Skydreamer</b>, I was invited to be part of the development team of the first European mobile application that turns traveling with friends into a <i>Swipe and Match Game</i>, offering thousands of destinations all around the world. Always with the best offers for Flights, Hotels, apartments.<br><br>At <i>Skydreamer</i>, I had the amazing experience of a <i>startup environment</i>, the pros, and cons, expanding my mind of how to lead with the remote management, with short deadlines periods and very limited resources. In September 2017, with the 'Beta' version running and with several real users, we went to <i>TechCrunch Disrupt<i> - San Francisco where we received an offer from an international sports and entertainment agency."
+                "city": "Bangalore",
+                "country": "India",
+                "role": "Senior Software Engineer",
+                "description": "At <b>Concentrix</b>, is an American business services company specializing in customer engagement and business performance.<br><b>Responsibility</b><br><br>* Jenkins and Jenkinsfile<br>* GCP, AWS and Azure for infrastructure<br>* Swarm Cluster Management and Deployment<br>* Nagios and CloudWatch for monitoring<br>* Shell script / Python Script for automation tasks<br>* Installation and management of Linux servers<br>"
             }
         ],
         "technologies": [
-            "HTML5", "CSS3", "Javascript", "jQuery", "PHP", "Laravel", "Slim Framework", "React", "React Native", "MySQL", "Elastic Search", "AWS", "Firebase", "Java", "Android", "Swift", "iOS", "Python (data scrapers)", "Scrum", "Unit Tests", "TDD"
+            "AWS", "Linux", "RedHat", "CentOS", "GCP", "Azure", "Docker", "Docker Swarm", "Jenkins", "Ansible", "CICD", "Jenkinsfile", "Git", "Nginx", "Tomcat", "Networking", "Nagios", "LDAP", "Nexus", "Artifactory", "SonarQuve"
         ],
         "medias": [
             {
                 "icon": "youtube",
-                "title": "YouTube Skydreamer",
-                "http": "https://www.youtube.com/channel/UCZ6_SqHB-Sdl7EHIXbvYoSw"
+                "title": "YouTube Concentrix",
+                "http": "https://www.youtube.com/channel/UC4mDbkUwqzbJpGTjPYhuwOg"
             },
             {
-                "icon": "facebook",
-                "title": "Facebook SkyDreamer App",
-                "http": "https://www.facebook.com/skydreamer.io/"
+                "icon": "linkedin",
+                "title": "LinkedIn Concentrix",
+                "http": "https://www.linkedin.com/company/concentrix"
+            },
+            {
+                "icon": "github",
+                "title": "GitHub Concentrix",
+                "http": "https://github.com/concentrix/"
             }
         ],
         "backgroundUrl": "assets/template/experience/utrecht.jpg"

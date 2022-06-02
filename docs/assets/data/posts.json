@@ -1,18 +1,18 @@
 [
     {
-        "thumbnail": "assets/posts/post-11-03-2019.jpg",
-        "http": "https://www.linkedin.com/pulse/anti-traversing-2d-array-formula-guilherme-borges-bastos/",
-        "date": "11-03-2019",
+        "thumbnail": "assets/posts/webkube.png",
+        "http": "https://akhilrajmailbox.github.io/blog/web-kubectl.html",
+        "date": "02-03-2020",
         "internationalizations": [
             {
                 "language": "en",
-                "title": "The anti-traversing 2D Array formula.",
-                "description": "Have you ever thought about the <b>mathematical relation</b> between the <i>columns</i> and <i>rows</i> of a bidimensional array <i>(2d matrix)</i>? This data structure hides a <b>data location formula</b> that helped me to avoid the <i>time complexity of O(n²)</i>, which is a terrible scenario, turning it into a <i>constant time complexity - O(1)</i>. A full explanation, with real test cases and Unit Tests are waiting for you."
+                "title": "Web Kubectl Interface",
+                "description": "Now you can manage your <b>Kubernetes cluster</b> from any system over any browser without compromising security, This is an custom application which can used for communicate with your k8s Cluster without any kubectl configuration on your local system. <b>web-kubectl</b> have these features...<br><br>* 2FA Authentication<br>* Web interface<br>* Security and Permission customization with rbac<br>* Awesome terminal Interface<br>"
             },
             {
                 "language": "pt",
-                "title": "A fórmula de matriz 2D anti-deslocamento.",
-                "description": "Você já pensou na <b>relação matemática</b> entre as<i> colunas</i> e as <i>linhas</i> de uma matriz bidimensional <i>(matriz 2d)</i>? Essa estrutura de dados oculta uma <b>fórmula de localização de dados</b> que me ajudou a evitar a <i>complexidade de tempo de O(n²)</i>, que é um cenário péssimo, transformando-a em uma <i>complexidade do tempo constante - O(1)</i>. Uma explicação completa, com casos de teste reais e testes de unidade, está esperando por você."
+                "title": "Web Kubectl Interface",
+                "description": "Now you can manage your <b>Kubernetes cluster</b> from any system over any browser without compromising security, This is an custom application which can used for communicate with your k8s Cluster without any kubectl configuration on your local system. <b>web-kubectl</b> have these features...<br><br>* 2FA Authentication<br>* Web interface<br>* Security and Permission customization with rbac<br>* Awesome terminal Interface<br>"
             }
         ]
     },

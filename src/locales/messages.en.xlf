@@ -84,8 +84,8 @@
         <note priority="1" from="description">contact</note>
       </trans-unit>
       <trans-unit id="messagePlaceholder" datatype="html">
-        <source>Write here your message... I will reply to you soon.</source>
-        <target>Write here your message... I will reply to you soon.</target>
+        <source>This feature is currently disabled. Please use my email ID to contact me</source>
+        <target>This feature is currently disabled. Please use my email ID to contact me</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/contact/contact.component.html</context>
           <context context-type="linenumber">26</context>
@@ -93,8 +93,8 @@
         <note priority="1" from="description">contact</note>
       </trans-unit>
       <trans-unit id="emailPlaceholder" datatype="html">
-        <source>mark@gmail.com</source>
-        <target>mark@gmail.com</target>
+        <source>Your Email ID</source>
+        <target>Your Email ID</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/contact/contact.component.html</context>
           <context context-type="linenumber">23</context>
@@ -102,8 +102,8 @@
         <note priority="1" from="description">contact</note>
       </trans-unit>
       <trans-unit id="namePlaceholder" datatype="html">
-        <source>Mark</source>
-        <target>Mark</target>
+        <source>Your Name</source>
+        <target>Your Name</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/contact/contact.component.html</context>
           <context context-type="linenumber">20</context>
