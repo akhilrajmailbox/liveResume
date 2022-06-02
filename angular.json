@@ -80,6 +80,15 @@
               "baseHref": "/en/",
               "i18nMissingTranslation": "error"
             },
+            "liveResume": {
+              "aot": true,
+              "localize": [
+                "en"
+              ],
+              "outputPath": "dist/liveResume/",
+              "baseHref": "https://akhilrajmailbox.github.io/liveResume/",
+              "i18nMissingTranslation": "error"
+            },
             "pt": {
               "aot": true,
               "localize": [

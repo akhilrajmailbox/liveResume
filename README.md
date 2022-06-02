@@ -69,6 +69,28 @@ npm -v
 
 4. If you haven't installed NPM in your machine then go to [this link](https://www.npmjs.com/get-npm) in order to install NPM.
 
+
+
+## Create GitHub Pages Artefact
+
+You can create the artefact with help of a preconfigured docker image
+
+```bash
+docker run --rm -v /path/to/liveResume:/opt/liveResume -e BUILD_ENV="liveResume" --name myresume --hostname myresume akhilrajmailbox/live-resume:1.0.0
+rm -rf ./docs ; mkdir ./docs
+cp -r ./dist/liveResume/en/ ./docs/
+```
+
+
+## Reference
+
+[Angular Apps to GitHub Pages](https://medium.com/tech-insights/how-to-deploy-angular-apps-to-github-pages-gh-pages-896c4e10f9b4)
+
+[Angular Project to Github Pages](https://blog.bitsrc.io/deploy-your-angular-project-to-github-pages-7cbacb96f35b)
+
+
+
+
 ## 📥 Installing and Executing locally
 
 > A video tutorial is also available [watch it](https://youtu.be/SmSCux_qx_Q).
