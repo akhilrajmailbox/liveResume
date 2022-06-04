@@ -6,8 +6,6 @@
 
 ## ⚓Prerequisite
 
-> A video tutorial is also available [watch it](https://youtu.be/SmSCux_qx_Q).
-
 1. It is required to have Node.js with version _12.18.0_ or higher. To see what version of Node.js is installed on your machine type the following command in the terminal:
 ```
 node -v
@@ -39,6 +37,8 @@ cp -r ./dist/liveResume/en/ ./docs/
 
 * Build and Publish the Artefact (gh-pages)
 
+**Assuming that the gh-page is serving from teh current branch under folder "docs"**
+
 ```bash
 docker run --rm -v /path/to/liveResume:/opt/liveResume -e BUILD_ENV="liveResume" --name myresume --hostname myresume akhilrajmailbox/liveResume:1.0.1
 ```
@@ -55,7 +55,7 @@ docker run --rm -v /path/to/liveResume:/opt/liveResume -e BUILD_ENV="liveResume"
 
 [Embedding raster image](https://bl.ocks.org/hugolpz/7a2e24688591887f75c3)
 
-
+[Remove Image Background](https://www.remove.bg/)
 
 
 ## 📥 Installing and Executing locally
@@ -108,3 +108,12 @@ This project uses several open source packages:
 ## 📝 License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+
+## How to create Tags for My Resume ?
+
+* git tag v1.0.1
+
+* git tag -l
+
+* git push origin --tags
