@@ -102,7 +102,7 @@ This project uses several open source packages:
 
 ---
 
-> Site [www.akhilrajmailbox.github.io/liveResume/](https://www.akhilrajmailbox.github.io/liveResume/)<br>
+> Site [https://www.akhilraj.xyz/](https://https://www.akhilraj.xyz/)<br>
 
 
 ## 📝 License

@@ -1,7 +1,7 @@
 [
     {
         "thumbnail": "assets/posts/webkube-02-03-2020.png",
-        "http": "https://akhilrajmailbox.github.io/blog/web-kubectl.html",
+        "http": "https://blog.akhilraj.xyz/web-kubectl.html",
         "date": "02-03-2020",
         "internationalizations": [
             {
@@ -18,7 +18,7 @@
     },
     {
         "thumbnail": "assets/posts/hlf-11-23-2020.png",
-        "http": "https://akhilrajmailbox.github.io/blog/hlf.html",
+        "http": "https://blog.akhilraj.xyz/hlf.html",
         "date": "11-23-2020",
         "internationalizations": [
             {
@@ -35,7 +35,7 @@
     },
     {
         "thumbnail": "assets/posts/elk-06-11-2020.png",
-        "http": "https://akhilrajmailbox.github.io/blog/elk.html",
+        "http": "https://blog.akhilraj.xyz/elk.html",
         "date": "06-11-2020",
         "internationalizations": [
             {
@@ -52,7 +52,7 @@
     },
     {
         "thumbnail": "assets/posts/ingress-02-10-2021.jpg",
-        "http": "https://akhilrajmailbox.github.io/blog/ingress.html",
+        "http": "https://blog.akhilraj.xyz/ingress.html",
         "date": "02-10-2021",
         "internationalizations": [
             {
@@ -69,7 +69,7 @@
     },
     {
         "thumbnail": "assets/posts/nagios-02-02-2020.png",
-        "http": "https://akhilrajmailbox.github.io/blog/nagios.html",
+        "http": "https://blog.akhilraj.xyz/nagios.html",
         "date": "02-02-2020",
         "internationalizations": [
             {
@@ -86,7 +86,7 @@
     },
     {
         "thumbnail": "assets/posts/prometheus-03-02-2020.png",
-        "http": "https://akhilrajmailbox.github.io/blog/prometheus.html",
+        "http": "https://blog.akhilraj.xyz/prometheus.html",
         "date": "03-02-2020",
         "internationalizations": [
             {
@@ -103,7 +103,7 @@
     },
     {
         "thumbnail": "assets/posts/redis-01-31-2020.jpg",
-        "http": "https://akhilrajmailbox.github.io/blog/redis.html",
+        "http": "https://blog.akhilraj.xyz/redis.html",
         "date": "01-31-2020",
         "internationalizations": [
             {
@@ -120,7 +120,7 @@
     },
     {
         "thumbnail": "assets/posts/rabbitmq-11-19-2019.jpeg",
-        "http": "https://akhilrajmailbox.github.io/blog/rabbitmq.html",
+        "http": "https://blog.akhilraj.xyz/rabbitmq.html",
         "date": "11-19-2019",
         "internationalizations": [
             {
@@ -137,7 +137,7 @@
     },
     {
         "thumbnail": "assets/posts/hdfs-01-31-2020.jpg",
-        "http": "https://akhilrajmailbox.github.io/blog/hdfs.html",
+        "http": "https://blog.akhilraj.xyz/hdfs.html",
         "date": "01-31-2020",
         "internationalizations": [
             {
@@ -154,7 +154,7 @@
     },
     {
         "thumbnail": "assets/posts/guestbook-01-31-2020.png",
-        "http": "https://akhilrajmailbox.github.io/blog/guestbook.html",
+        "http": "https://blog.akhilraj.xyz/guestbook.html",
         "date": "01-31-2020",
         "internationalizations": [
             {
