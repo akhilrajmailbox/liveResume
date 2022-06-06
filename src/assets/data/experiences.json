@@ -13,7 +13,7 @@
                 "city": "Cochin",
                 "country": "India",
                 "role": "Implementation Engineer",
-                "description": "<b>Xalted</b> is a leading global provider of end-to-end Proactive Intelligence and Analytics solutions that empower Government Agencies and Business Units to make smarter and informed decisions – thereby enabling them to solve complex problems by providing valuable insights<br><b>Responsibility</b><br><br>* Installation and configuration of Linux for new build environment<br>* Configuring and monitoring LVM<br>* User Management & Administration<br>* Configuring and managing network interfaces<br>* File system management<br>"
+                "description": "<b>Xalted</b> is a leading global provider of end-to-end Proactive Intelligence and Analytics solutions that empower Government Agencies and Business Units to make smarter and informed decisions – thereby enabling them to solve complex problems by providing valuable insights<br><br><b>Responsibility</b><br>* Installation and configuration of Linux for new build environment<br>* Configuring and monitoring LVM<br>* User Management & Administration<br>* Configuring and managing network interfaces<br>* File system management<br>"
             }
         ],
         "technologies": [
@@ -47,7 +47,7 @@
                 "city": "Bangalore",
                 "country": "India",
                 "role": "DevOps Engineer",
-                "description": "<b>Vivasa</b> provide software development services for small and medium clients in the CRM, GRC and EV domains.<br><b>Vivasa</b> help IT professionals acquire hands-on programming skills through a personalized, mentor-driven, and project-based curriculum.<br><b>Responsibility</b><br><br>* container orchestration with docker<br>* Jenkins for Continuous Integration<br>* Kubernetes Deployment<br>* Scaleway, Hetzner and GCP Infrastructure<br>* ElasticSearch and Kibana for Logging<br>* Nagios Server Configuration and Monitoring the services<br>* Shell script / Python Script for automation tasks<br>* NoSQL Database (Cassandra) Cluster deployment and Management<br>* GitLab and Eclipse Che Server Management<br>* Windows Server Administration<br>"
+                "description": "<b>Vivasa</b> provide software development services for small and medium clients in the CRM, GRC and EV domains.<br><b>Vivasa</b> help IT professionals acquire hands-on programming skills through a personalized, mentor-driven, and project-based curriculum.<br><br><b>Responsibility</b><br>* container orchestration with docker<br>* Jenkins for Continuous Integration<br>* Kubernetes Deployment<br>* Scaleway, Hetzner and GCP Infrastructure<br>* ElasticSearch and Kibana for Logging<br>* Nagios Server Configuration and Monitoring the services<br>* Shell script / Python Script for automation tasks<br>* NoSQL Database (Cassandra) Cluster deployment and Management<br>* GitLab and Eclipse Che Server Management<br>* Windows Server Administration<br>"
             }
         ],
         "technologies": [
@@ -81,7 +81,7 @@
                 "city": "Bangalore",
                 "country": "India",
                 "role": "DevOps Engineer",
-                "description": "At <b>Kognitiv</b> enables leading organizations to form collaborative commerce networks, unearth value for their consumers, and markedly improve returns.<br><b>Responsibility</b><br><br>* Blockchain and Hyperledger Fabric<br>* Jenkins and Docker<br>* GCP, AWS and Azure for infrastructure<br>* Kubernetes Cluster Management and Deployment<br>* Versioning and Rollback strategy in k8s deployment<br>* ElasticSearch and Kibana for logging<br>* Prometheus and Grafana for whitebox monitoring<br>* Nagios for blackbox monitoring<br>* Managing Databases such as MySQL, PostgreSQL and MongoDB<br>* Shell script / Python Script for automation tasks<br>"
+                "description": "At <b>Kognitiv</b> enables leading organizations to form collaborative commerce networks, unearth value for their consumers, and markedly improve returns.<br><br><b>Responsibility</b><br>* Blockchain and Hyperledger Fabric<br>* Jenkins and Docker<br>* GCP, AWS and Azure for infrastructure<br>* Kubernetes Cluster Management and Deployment<br>* Versioning and Rollback strategy in k8s deployment<br>* ElasticSearch and Kibana for logging<br>* Prometheus and Grafana for whitebox monitoring<br>* Nagios for blackbox monitoring<br>* Managing Databases such as MySQL, PostgreSQL and MongoDB<br>* Shell script / Python Script for automation tasks<br>"
             }
         ],
         "technologies": [
@@ -120,7 +120,7 @@
                 "city": "Bangalore",
                 "country": "India",
                 "role": "Senior Software Engineer",
-                "description": "At <b>Concentrix</b>, is an American business services company specializing in customer engagement and business performance.<br><b>Responsibility</b><br><br>* Jenkins and Jenkinsfile<br>* GCP, AWS and Azure for infrastructure<br>* Swarm Cluster Management and Deployment<br>* Nagios and CloudWatch for monitoring<br>* Shell script / Python Script for automation tasks<br>* Installation and management of Linux servers<br>"
+                "description": "At <b>Concentrix</b>, is an American business services company specializing in customer engagement and business performance.<br><br><b>Responsibility</b><br>* Jenkins and Jenkinsfile<br>* GCP, AWS and Azure for infrastructure<br>* Swarm Cluster Management and Deployment<br>* Nagios and CloudWatch for monitoring<br>* Shell script / Python Script for automation tasks<br>* Installation and management of Linux servers<br>"
             }
         ],
         "technologies": [
