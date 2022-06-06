@@ -1,5 +1,22 @@
 [
     {
+        "thumbnail": "assets/posts/2048-02-15-2021.jpeg",
+        "http": "https://2048.akhilraj.xyz",
+        "date": "02-15-2021",
+        "internationalizations": [
+            {
+                "language": "en",
+                "title": "Web 2048 Gaming",
+                "description": "<b>2048</b> is an easy and fun puzzle game. Even if you don't love numbers you will love this game. It is played on a 4x4 grid using the arrows or W, A, S, D keys alternatively. Every time you press a key - all tiles slide. Tiles with the same value that bump into one-another are merged. Although there might be an optimal strategy to play, there is always some level of chance. If you beat the game and would like to master it, try to finish with a smaller score. That would mean that you finished with less moves."
+            },
+            {
+                "language": "pt",
+                "title": "Web 2048 Gaming",
+                "description": "<b>2048</b> is an easy and fun puzzle game. Even if you don't love numbers you will love this game. It is played on a 4x4 grid using the arrows or W, A, S, D keys alternatively. Every time you press a key - all tiles slide. Tiles with the same value that bump into one-another are merged. Although there might be an optimal strategy to play, there is always some level of chance. If you beat the game and would like to master it, try to finish with a smaller score. That would mean that you finished with less moves."
+            }
+        ]
+    },
+    {
         "thumbnail": "assets/posts/webkube-02-03-2020.png",
         "http": "https://blog.akhilraj.xyz/web-kubectl.html",
         "date": "02-03-2020",
