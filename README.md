@@ -29,10 +29,10 @@ You can create the artefact with help of a preconfigured docker image
 * Only Build the Artefact
 
 ```bash
-docker run --rm -v /path/to/liveResume:/opt/liveResume -e BUILD_ENV="liveResume" --name myresume --hostname myresume akhilrajmailbox/liveResume:1.0.1 build
+docker run --rm -v /path/to/liveResume:/opt/liveResume -e BUILD_ENV="liveResume" --name myresume --hostname myresume akhilrajmailbox/live-resume:1.0.1 build
 # Optional (If you need to move the artifacts to docs folder)
 rm -rf ./docs ; mkdir ./docs
-cp -r ./dist/liveResume/en/ ./docs/
+cp -r ./dist/liveResume/en/* ./docs/
 ```
 
 * Build and Publish the Artefact (gh-pages)
@@ -40,7 +40,7 @@ cp -r ./dist/liveResume/en/ ./docs/
 **Assuming that the gh-page is serving from teh current branch under folder "docs"**
 
 ```bash
-docker run --rm -v /path/to/liveResume:/opt/liveResume -e BUILD_ENV="liveResume" --name myresume --hostname myresume akhilrajmailbox/liveResume:1.0.1
+docker run --rm -v /path/to/liveResume:/opt/liveResume -e BUILD_ENV="liveResume" --name myresume --hostname myresume akhilrajmailbox/live-resume:1.0.1
 ```
 
 ## Reference
