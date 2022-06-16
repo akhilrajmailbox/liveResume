@@ -48,7 +48,7 @@
                     <div class="form-group">
                         <label for="message" i18n="contact@@message">Your message:</label>
                         <textarea [class.is-invalid]="senderMessage.invalid && senderMessage.touched"
-                            name="message" i18n-placeholder="contact@@messagePlaceholder" placeholder="This feature is currently disabled. Please use my email ID to contact me" formControlName="message" required></textarea>
+                            name="message" i18n-placeholder="contact@@messagePlaceholder" placeholder="This feature has been disabled. Please contact me by email" formControlName="message" required></textarea>
                         <div class="warnings" *ngIf="(senderMessage.invalid && senderMessage.touched) || senderMessage.dirty">
                             <!--question mark(?) is a safe navigation operator-->
                             <small *ngIf="senderMessage.errors?.required" class="text-danger" i18n="contact@@requiredMessageError">The message is required.</small>
