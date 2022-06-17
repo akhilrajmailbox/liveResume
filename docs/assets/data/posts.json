@@ -17,6 +17,23 @@
         ]
     },
     {
+        "thumbnail": "assets/posts/gravity-06-17-2022.png",
+        "http": "https://gravity.akhilraj.xyz",
+        "date": "06-17-2022",
+        "internationalizations": [
+            {
+                "language": "en",
+                "title": "Gravity Web",
+                "description": "<b>Gravity Web</b> Is my custom Gravity page for listing the tech stack that I am experienced and many other information. This is moreover same like the <b>google gravity</b> ,When the homepage of Google is open on your smart devices, type 'google gravity' in the search panel. Do not click on the search button instantly. Instead of clicking on the search button, click the button that says I'm feeling lucky as soon as you do that you will see that the gravity google trick has been activated."
+            },
+            {
+                "language": "pt",
+                "title": "Gravity Web",
+                "description": "<b>Gravity Web</b> Is my custom Gravity page for listing the tech stack that I am experienced and many other information. This is moreover same like the <b>google gravity</b> ,When the homepage of Google is open on your smart devices, type 'google gravity' in the search panel. Do not click on the search button instantly. Instead of clicking on the search button, click the button that says I'm feeling lucky as soon as you do that you will see that the gravity google trick has been activated."
+            }
+        ]
+    },
+    {
         "thumbnail": "assets/posts/webkube-02-03-2020.png",
         "http": "https://blog.akhilraj.xyz/web-kubectl.html",
         "date": "02-03-2020",
