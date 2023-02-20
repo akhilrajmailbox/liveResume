@@ -120,7 +120,7 @@
                 "city": "Bangalore",
                 "country": "India",
                 "role": "Senior Software Engineer",
-                "description": "At <b>Concentrix</b>, is an American business services company specializing in customer engagement and business performance.<br><br><b>Responsibility</b><br>* Jenkins and Jenkinsfile<br>* GCP, AWS and Azure for infrastructure<br>* Swarm Cluster Management and Deployment<br>* Nagios and CloudWatch for monitoring<br>* Shell script / Python Script for automation tasks<br>* Installation and management of Linux servers<br>"
+                "description": "At <b>Concentrix</b>, is an American business services company specializing in customer engagement and business performance.<br><br><b>Responsibility</b><br>* Jenkins and Jenkinsfile with Shared groovy library for CI/CD<br>* IaC with Deployment Manager (GCP), Cloudformation Template (AWS)<br>* GCP, AWS and Azure for infrastructure<br>* Swarm Cluster Management and Deployment<br>* Nagios and CloudWatch for monitoring<br>* Shell script / Python Script for automation tasks<br>* Installation and management of Linux servers<br>"
             }
         ],
         "technologies": [
