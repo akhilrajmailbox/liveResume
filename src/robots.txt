@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://akhilrajmailbox.github.io/liveResumesitemap.xml
+Sitemap: https://akhilrajmailbox.github.io/liveResume/sitemap.xml
