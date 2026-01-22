@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - "main"
-      - "resume-patch"
     paths-ignore:
       - "docs/*"
 
@@ -46,8 +45,6 @@ jobs:
           npm run build-locale:${{ env.BUILD_ENV }} --prod --aot
 
       - name: Publish
-        env:
-          BUILD_ENV: "liveResume"
         shell: bash
         run: |-
           rm -rf docs
