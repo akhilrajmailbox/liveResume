@@ -109,8 +109,8 @@
     {
         "id": 4,
         "position": 4,
-        "startAt": "02-23-2021",
-        "endAt": "2023",
+        "startAt": "02-24-2021",
+        "endAt": "02-25-2025",
         "companyName": "Concentrix",
         "website": "https://www.concentrix.com/",
         "logo": "assets/template/experience/logo/concentrix.png",
@@ -144,5 +144,39 @@
             }
         ],
         "backgroundUrl": "assets/template/experience/utrecht.jpg"
+    },
+    {
+        "id": 5,
+        "position": 5,
+        "startAt": "03-01-2025",
+        "endAt": "2026",
+        "companyName": "Devonic Solutions",
+        "website": "https://www.linkedin.com/in/akhilrajmailbox",
+        "logo": "assets/template/welcome/icons/img/linux.png",
+        "internationalizations": [
+            {
+                "language": "en",
+                "city": "Kochi",
+                "country": "India",
+                "role": "Founder",
+                "description": "At <b>Devonic Solutions</b> is an Indian services company specializing in DevOps outsourcing and Cloud management"
+            }
+        ],
+        "technologies": [
+            "AWS", "GCP", "Azure", "Linux", "Docker", "Jenkins", "Kubernetes", "CICD", "Git", "Terraform", "DevOps Outsourcing"
+        ],
+        "medias": [
+            {
+                "icon": "linkedin",
+                "title": "LinkedIn Devonic Solutions",
+                "http": "https://www.linkedin.com/in/akhilrajmailbox"
+            },
+            {
+                "icon": "github",
+                "title": "GitHub Devonic Solutions",
+                "http": "https://github.com/akhilrajmailbox"
+            }
+        ],
+        "backgroundUrl": "assets/template/experience/rio.jpg"
     }
 ]

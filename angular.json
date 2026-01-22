@@ -86,7 +86,7 @@
                 "en"
               ],
               "outputPath": "dist/liveResume/",
-              "baseHref": "https://www.akhilraj.xyz",
+              "baseHref": "https://akhilrajmailbox.github.io/liveResume",
               "i18nMissingTranslation": "error"
             },
             "pt": {
