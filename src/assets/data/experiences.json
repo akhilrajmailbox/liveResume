@@ -152,14 +152,14 @@
         "endAt": "2026",
         "companyName": "Devonic Solutions",
         "website": "https://www.linkedin.com/in/akhilrajmailbox",
-        "logo": "assets/template/welcome/icons/img/linux.png",
+        "logo": "assets/template/welcome/welcome-akhil-cartoon.png",
         "internationalizations": [
             {
                 "language": "en",
                 "city": "Kochi",
                 "country": "India",
                 "role": "Founder",
-                "description": "At <b>Devonic Solutions</b> is an Indian services company specializing in DevOps outsourcing and Cloud management"
+                "description": "At <b>Devonic Solutions</b>, is an Indian services company specializing in DevOps outsourcing and Cloud management<br><br><b>Responsibility</b><br>* Founded and scaled a DevOps and cloud services startup delivering outsourced infrastructure and automation solutions to global clients<br>* Designed, implemented, and managed cloud architectures on AWS, Azure, and GCP, ensuring high availability, security, and cost optimization<br>* Led end-to-end DevOps engagements including CI/CD pipelines, infrastructure as code (Terraform), containerization (Docker, Kubernetes), and monitoring<br>* Collaborated directly with clients to assess infrastructure needs, propose solutions, and deliver on SLAs<br>"
             }
         ],
         "technologies": [

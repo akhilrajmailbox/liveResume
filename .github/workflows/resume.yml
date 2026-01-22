@@ -12,6 +12,10 @@ concurrency:
   cancel-in-progress: true
 
 env:
+  env_var: ${{ vars.ENV_CONTEXT_VAR }}
+  TAG_PREFIX: "AutoRelease-"
+  TAG_SUFFIX: ""
+  TAG_PATTERN: "[0-9]+\\.[0-9]+\\.[0-9]+"
   NODE_VER: 22
 
 jobs:
@@ -62,3 +66,40 @@ jobs:
           git add docs
           git commit -m "devops: Updating the docs folder"
           git push
+
+      - name: Fetch Tags
+        run: git fetch --tags
+
+      - name: Get Latest Tag
+        id: get_tag
+        shell: bash
+        run: |-
+          export RELEASE_TAG="${{ env.TAG_PREFIX}}${{ env.TAG_PATTERN }}${{ env.TAG_SUFFIX }}"
+          if git tag --sort=-v:refname | grep -E "^${RELEASE_TAG}$" ; then
+            latest_tag=$(git tag --sort=-v:refname | grep -E "^${RELEASE_TAG}$" | head -n 1)
+          else
+            latest_tag="${{ env.TAG_PREFIX}}v1.0.0${{ env.TAG_SUFFIX }}"
+          fi
+          echo "latest_tag=${latest_tag}" >> ${GITHUB_OUTPUT}
+
+      - name: Bump Patch Version
+        id: bump_version
+        shell: bash
+        run: |-
+          export latest_tag=${{ steps.get_tag.outputs.latest_tag }}
+          IFS='.' read -r major minor patch <<<"${latest_tag#v}"
+          new_tag="v$major.$minor.$((patch + 1))"
+          new_minor_tag="v$major.$minor"
+          new_major_tag="v$major"
+          echo "new_tag=${new_tag}${{ env.TAG_SUFFIX }}" >> ${GITHUB_OUTPUT}
+          echo "new_minor_tag=${new_minor_tag}${{ env.TAG_SUFFIX }}" >> ${GITHUB_OUTPUT}
+          echo "new_major_tag=${new_major_tag}${{ env.TAG_SUFFIX }}" >> ${GITHUB_OUTPUT}
+
+      - name: Create Git Tags
+        shell: bash
+        run: |-
+          git tag ${{ steps.bump_version.outputs.new_tag }}
+          git tag -f ${{ steps.bump_version.outputs.new_minor_tag }}
+          git tag -f ${{ steps.bump_version.outputs.new_major_tag }}
+          git push origin ${{ steps.bump_version.outputs.new_tag }}
+          git push origin -f ${{ steps.bump_version.outputs.new_tag }} ${{ steps.bump_version.outputs.new_minor_tag }} ${{ steps.bump_version.outputs.new_major_tag }}
